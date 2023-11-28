@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table td,table th{
+  
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 5px;
+    overflow-y: hidden;
+    
+}
+.icon{
+    color: rgb(17, 240, 17);
+}
+h2{
+    text-align: center;
+}
+.table td,th{
+    background-color: var(--color-red);
+}
+.table{
+    border-radius: 30px;
+}
